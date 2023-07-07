@@ -6,8 +6,13 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{10C03970-51B0-4524-96D7-897ABB8D2BCE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
+<<<<<<< HEAD
     <RootNamespace>Exercicio12_3</RootNamespace>
     <AssemblyName>Exercicio12.3</AssemblyName>
+=======
+    <RootNamespace>ExercicioCap12</RootNamespace>
+    <AssemblyName>ExercicioCap12</AssemblyName>
+>>>>>>> cf0c9cd7a5846b7b4b757f90aabecb0e16b1ecd9
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -80,7 +85,10 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+<<<<<<< HEAD
       <DesignTime>True</DesignTime>
+=======
+>>>>>>> cf0c9cd7a5846b7b4b757f90aabecb0e16b1ecd9
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
