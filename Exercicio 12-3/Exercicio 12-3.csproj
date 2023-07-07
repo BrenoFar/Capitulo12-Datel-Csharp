@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B600D588-C6F9-4B9C-BB13-C5B730E2D0FB}</ProjectGuid>
+    <ProjectGuid>{77EEEE10-7E17-4804-A6BE-89C1618642EB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Exercicio12_5</RootNamespace>
-    <AssemblyName>Exercicio12-5</AssemblyName>
+    <RootNamespace>Exercicio_12_3</RootNamespace>
+    <AssemblyName>Exercicio 12-3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,12 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< HEAD
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-=======
->>>>>>> cf0c9cd7a5846b7b4b757f90aabecb0e16b1ecd9
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
