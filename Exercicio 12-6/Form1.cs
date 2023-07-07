@@ -124,5 +124,10 @@ namespace Exercicio_12_6
                 height = 6;
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Refresh();
+        }
     }
 }

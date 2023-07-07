@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercicio 12-6", "Exercicio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio 12-6", "Exercicio 12-6\Exercicio 12-6.csproj", "{B647F7CD-72B1-4E99-9BBD-6D7209A0AD6D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercicio 12-7", "Exercicio 12-7", "{849F25C5-3D7C-4493-815B-C911EA3FF580}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

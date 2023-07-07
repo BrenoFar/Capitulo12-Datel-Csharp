@@ -38,6 +38,7 @@
             this.btnMedio = new System.Windows.Forms.RadioButton();
             this.btnPequeno = new System.Windows.Forms.RadioButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnLimpar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -166,12 +167,27 @@
             this.pictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseMove);
             this.pictureBox1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseUp);
             // 
+            // btnLimpar
+            // 
+            this.btnLimpar.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnLimpar.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnLimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpar.Location = new System.Drawing.Point(18, 371);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(96, 23);
+            this.btnLimpar.TabIndex = 3;
+            this.btnLimpar.Text = "LIMPAR TELA";
+            this.btnLimpar.UseVisualStyleBackColor = false;
+            this.btnLimpar.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -198,6 +214,7 @@
         private System.Windows.Forms.RadioButton btnMedio;
         private System.Windows.Forms.RadioButton btnPequeno;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnLimpar;
     }
 }
 
